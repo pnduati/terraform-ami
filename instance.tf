@@ -1,5 +1,5 @@
 resource "aws_instance" "example" {
-  name = "example"
+  name = "bootstrap-instance"
   ami = "${var.AMI_ID}"
   instance_type = "t2.micro"
 
