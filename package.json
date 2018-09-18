@@ -1,9 +1,9 @@
 {
   "name": "terraform-packer-custom-ami",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pnduati/terraform-ami.git"
+    "url": "git@github.com:pnduati/terraform-ami.git"
   },
   "author": {
     "email": "lnduatipeter@gmail.com",
