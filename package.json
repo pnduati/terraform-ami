@@ -1,16 +1,15 @@
 {
-  "release": {
-    "branch": "release-next"
-  },
-  "devDependencies": {
-    "semantic-release": "^15.9.15"
-  },
-  "version": "0.0.0-development",
-  "scripts": {
-    "semantic-release": "semantic-release"
-  },
+  "name": "terraform-packer-custom-ami",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/pnduati/terraform-ami.git"
+  },
+  "author": {
+    "email": "lnduatipeter@gmail.com",
+    "name": "Peter  Nduati"
+  },
+  "scripts": {
+    "release": "release-it"
   }
 }
